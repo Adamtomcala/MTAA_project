@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_teacher">
+
+
+    <fragment
+        android:id="@+id/nav_teacher"
+        android:name="com.example.vis.ui.teacher.TeacherFragment"
+        android:label="@string/teacher_header"
+        tools:layout="@layout/fragment_teacher" />
+
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.example.vis.ui.message.MessageFragment"
+        android:label="@string/message_header"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/nav_teacher_classroom"
+        android:name="com.example.vis.ui.classroomTeacher.ClassRoomTeacherFragment"
+        android:label="@string/classroom_header"
+        tools:layout="@layout/fragment_teacherclassroom" />
+
+    <fragment
+        android:id="@+id/nav_call"
+        android:name="com.example.vis.ui.call.CallFragment"
+        android:label="@string/call_header"
+        tools:layout="@layout/fragment_call" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.vis.ui.settings.SettingsFragment"
+        android:label="@string/settings_header"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home_header" />
+        <item
+            android:id="@+id/nav_student"
+            android:icon="@drawable/student"
+            android:fillColor="@android:color/white"
+            android:title="@string/student_header" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/messages"
+            android:title="@string/message_header" />
+        <item
+            android:id="@+id/nav_materials"
+            android:icon="@drawable/materials"
+            android:title="@string/classroom_header" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/calls"
+            android:title="@string/call_header" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings_header" />
+    </group>
+</menu>

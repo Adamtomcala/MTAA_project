@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1047088949047",
+    "project_id": "webrtc-a9118",
+    "storage_bucket": "webrtc-a9118.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047088949047:android:ffa616cbcb863327961cb2",
+        "android_client_info": {
+          "package_name": "com.example.vis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047088949047-ujgdg5mrqvvh7qn7doc8ilmeqih1b78m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjn6bco2yWQp94aLosShxaF0ZYYj2_Jt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047088949047-ujgdg5mrqvvh7qn7doc8ilmeqih1b78m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047088949047:android:da9ce7954739d036961cb2",
+        "android_client_info": {
+          "package_name": "devesh.chaudhari.FirebaseWebRTC"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047088949047-ujgdg5mrqvvh7qn7doc8ilmeqih1b78m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjn6bco2yWQp94aLosShxaF0ZYYj2_Jt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047088949047-ujgdg5mrqvvh7qn7doc8ilmeqih1b78m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
